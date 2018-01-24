@@ -3,7 +3,6 @@ layout: pattern
 title: Prototype
 folder: prototype
 permalink: /patterns/prototype/
-pumlid: HSV13OCm30NGLM00udktCS62eCInxE-YRj_UUdjlRLfx7fBUbmkmU14vF-Lik7BF4AzJ8OfIvw3Mys6mqyrltWw9Tkfc38XhqE3uWSmd9Zuc9AZ_bVHHB4V_0W00
 categories: Creational
 tags: 
  - Java
@@ -36,7 +35,7 @@ In Java, it can be easily done by implementing `Cloneable` and overriding `clone
 
 ```
 class Sheep implements Cloneable {
-  privage String name;
+  private String name;
   public Sheep(String name) { this.name = name; }
   public void setName(String name) { this.name = name; }
   public String getName() { return name; }
